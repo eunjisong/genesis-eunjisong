@@ -1,6 +1,6 @@
 # Introduction
 
-For the Genesis Interview Assignment, I build a simple React app using react-table library to display data that are being rendered, sorted, and filtered on the page.
+For the Genesis Interview Assignment, I build a simple React app using react-table library to display data that are being rendered, sorted, and filtered on the page. I also used Namor api to generate random names for the data.
 
 Please note that all codes are located at src/App.js
 

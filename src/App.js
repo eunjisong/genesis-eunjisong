@@ -3,6 +3,8 @@ import "./App.css";
 import { data } from "./data.js";
 import ReactTable from "react-table";
 import "react-table/react-table.css";
+import { BrowserRouter } from "react-router-dom";
+
 
 class App extends Component {
   constructor() {
@@ -16,6 +18,7 @@ class App extends Component {
     const { data } = this.state;
     console.log(data);
     return (
+      <BrowserRouter>
       <div className="App">
         <header className="App-header">
           <h1 className="App-title">Genesis Report</h1>
@@ -114,6 +117,7 @@ class App extends Component {
           <br />
         </div>
       </div>
+      </BrowserRouter>
     );
   }
 }

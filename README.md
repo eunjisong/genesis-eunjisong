@@ -2,6 +2,8 @@
 
 For the Genesis Interview Assignment, I build a simple React app using react-table library to display data that are being rendered, sorted, and filtered on the page.
 
+Please note that all codes are located at src/App.js
+
 # Steps
 1. Clone the repository on your local machine
 ```

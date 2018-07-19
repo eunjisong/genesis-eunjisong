@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "./App.css";
 import { data } from "./data.js";
 import ReactTable from "react-table";
 import "react-table/react-table.css";
@@ -9,13 +8,17 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      data: data()
-    };
+      data: []
+    }
   }
+
+  componentDidMount(){
+    this.setState({data: data()})
+  }
+
 
   render() {
     const { data } = this.state;
-    console.log(data);
     return (
 
       <div className="App">

@@ -2,7 +2,7 @@
   "name": "genesis-eunjisong",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://eunjisong.github.io/genesis-eunjisong",
+  "homepage": "http://eunjisong.github.io/Genesis_Eunjisong",
   "dependencies": {
     "namor": "^1.0.1",
     "react": "^16.4.1",

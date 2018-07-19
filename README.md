@@ -5,9 +5,11 @@ For the Genesis Interview Assignment, I build a simple React app using react-tab
 Please note that all codes are located at src/App.js
 
 # Steps
+Please follow the steps to run the app on your local machine.
+
 1. Clone the repository on your local machine
 ```
-https://github.com/eunjisong/Genesis_EunjiSong.git
+$ git clone https://github.com/eunjisong/Genesis_EunjiSong.git
 ```
 
 2. Download the project dependencies
@@ -21,3 +23,5 @@ $ npm install
  ```
  $ npm start
  ```
+
+ 4. Open http://localhost:3000/ to see the app.

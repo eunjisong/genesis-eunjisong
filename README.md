@@ -8,7 +8,7 @@ For the Genesis Interview Assignment, I build a simple React app using react-tab
 https://github.com/eunjisong/Genesis_EunjiSong.git
 ```
 
-2. Download the project
+2. Download the project dependencies
 ```
 $ npm install
 ```

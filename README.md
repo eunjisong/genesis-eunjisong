@@ -9,7 +9,7 @@ Please follow the steps to run the app on your local machine.
 
 1. Clone the repository on your local machine
 ```
-$ git clone https://github.com/eunjisong/Genesis_EunjiSong.git
+$ git clone https://github.com/eunjisong/genesis-eunjisong.git
 ```
 
 2. Download the project dependencies

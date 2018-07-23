@@ -8,21 +8,15 @@ class App extends Component {
     super();
     this.state = {
       data: [],
-      age: ""
     };
-    this.handleAge = this.handleAge.bind(this);
   }
 
   componentDidMount() {
     this.setState({ data: data() });
   }
 
-  handleAge(event) {
-    this.setState({ age: event.target.value });
-  }
-
   render() {
-    const { data, age } = this.state;
+    const { data } = this.state;
     const alphabet = "ABCEFGHIJKLMNOPQRSTUVWXYZ".split("");
     let selectedAge;
     return (
@@ -87,7 +81,7 @@ class App extends Component {
                     ),
                     filterMethod: (filter, row) => {
                       // if() row[filter.id].toString()[0] === filter.value[0]
-                      if (filter.value == "all") return true;
+                      if (filter.value === "all") return true;
                       return row[filter.id].startsWith(filter.value);
                     }
                   },
@@ -101,10 +95,10 @@ class App extends Component {
                       if (filter.value === "50") return row[filter.id];
                       else if (filter.value.length === 1)
                         return (
-                          row[filter.id].toString()[0] ==
+                          row[filter.id].toString()[0] ===
                           filter.value.toString()[0]
                         );
-                      else return row[filter.id] == filter.value;
+                      else return row[filter.id].toString() === filter.value;
                     },
                     Filter: ({ filter, onChange }) => (
                       <div className="specific-age">
@@ -120,9 +114,9 @@ class App extends Component {
 
 
                         <span className="selectedNumber">
-                          {filter && filter.value.length == 1 ?
+                          {filter && filter.value.length === 1 ?
                             selectedAge = filter.value + '0' :
-                           filter && filter.value == '50' ?
+                           filter && filter.value === '50' ?
                             selectedAge = 'all' :
                            filter && filter.value
                           }

@@ -88,7 +88,7 @@ class App extends Component {
 
                   ////////// Age Range //////////
                   {
-                    Header: "Age Range",
+                    Header: "Age Option 1",
                     accessor: "age",
                     filterMethod: (filter, row) => {
                       console.log(filter, row);
@@ -127,7 +127,7 @@ class App extends Component {
 
                   ////////// Age Selection //////////
                   {
-                    Header: "Age",
+                    Header: "Age Option2",
                     accessor: "age",
                     Filter: ({ filter, onChange }) => (
                       <select

@@ -18,7 +18,7 @@ class App extends Component {
   render() {
     const { data } = this.state;
     const alphabet = "ABCEFGHIJKLMNOPQRSTUVWXYZ".split("");
-    let selectedAge;
+
     return (
       <div className="App">
         <header className="App-header">

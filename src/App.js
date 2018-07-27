@@ -114,10 +114,7 @@ class App extends Component {
 
 
                         <span className="selectedNumber">
-                          {filter && filter.value.length === 1 ?
-                            selectedAge = filter.value + '0' :
-                           filter && filter.value === '50' ?
-                            selectedAge = 'all' :
+                          {
                            filter && filter.value
                           }
                         </span>
